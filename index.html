@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/resolutions/32/resolution-05-512.png">
     <title>Nicolás Hernández</title>
   </head>
   <body>
@@ -79,48 +80,166 @@
       </ul>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-
-      document.addEventListener('DOMContentLoaded', function() {
-          var elems = document.querySelectorAll('.sidenav');
-          var instances = M.Sidenav.init(elems, {});
-        });
-
-    </script>
-
-    <script>
-
-      document.addEventListener('DOMContentLoaded', function() {
-          var elems = document.querySelectorAll('.slider');
-          var instances = M.Slider.init(elems, {indicators: false, interval: 3000});
-        });
-
-    </script>
-
     <div id = "whoami" class = "container">
       <div class = "row">
+
         <center>
           <h2> Who am I? </h2>
         </center>
+
       </div>
+
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./images/WhoAmI.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>My name is Nicolás Hernández. I live in Bogotá, Colombia with my family and my pets.</p>
+            <br>
+            <table>
+              <tbody>
+                <tr><td><b>First Name</b></td><td>Nicolás</td></tr>
+                <tr><td><b>Second Name</b></td><td>Mateo</td></tr>
+                <tr><td><b>Last Name</b></td><td>Hernández Rojas</td></tr>
+                <tr><td><b>Gender</b></td><td>Male</td></tr>
+                <tr><td><b>Height</b></td><td>178 cms</td></tr>
+                <tr><td><b>Age</b></td><td>22</td></tr>
+                <tr><td><b>Birth place</b></td><td>Bogotá, Colombia</td></tr>
+                <tr><td><b>Birth date</b></td><td>December 2, 1996</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card-action">
+            <a href="./docs/CV Nicolás Hernández.pdf" target="_blank">Read my CV</a>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div id = "projects" class = "container">
       <div class = "row">
         <center>
-          <h2> What am I interested in? </h2>
+          <h2> My projects </h2>
         </center>
+
       </div>
+
+      <div class = "row">
+
+        <div class = "col s4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/descarga (2).jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">My family<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">My family<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "col s4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/descarga.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">How am I?<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">How am I?<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "col s4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/descarga (1).jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">My Data<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">My Data<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
     <div id = "interests" class = "container">
       <div class = "row">
         <center>
-          <h2> My projects </h2>
+          <h2> What am I interested in? </h2>
         </center>
       </div>
+
+      <ul class="collapsible">
+        <li class="active">
+          <div class="collapsible-header"><i class="material-icons">music_note</i>Music</div>
+          <div class="collapsible-body">
+            <span>I like electronic, soul, R&B, alternative and techno music.
+              My favorite bands are Metronomy, Chet Faker, Balthazar, Jungle, Klangkarussell, Lana Del Rey, Mac DeMarco, Tame Impala, Sorios, Soki Tukker, The XX, and many more. I play piano in a band and we try to make
+              cover songs and have fun as play our favorite songs. Here is one of my most liked song by Balthazar and a really good Sorios DJ set:
+            <br></span>
+            <br>
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/TQ0ZYFI4c9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br>
+            <div>
+              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/544838226&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">devices</i>Technology, videogames and development</div>
+          <div class="collapsible-body"><span>Videogames and music are my favorite hobbies. I love role playing and free-roaming games. Also, technology has been one of my bigger interest in my life. I am always searching about technology, videogames consoles, smartphones,
+            computers and new techonologies and devices main companies release. I like to experiment with my own computer and learn about its architecture. I study Computing and Systems Engineering,
+            so I'm learning to develop applications to movile devices, web pages, data processes and information technologies.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">directions_boat</i>Trips</div>
+          <div class="collapsible-body">
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/W9JeYg-CWYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br>
+            <span>I think that everyone should travel around the world as much as possible before death, because knowledge you get when you visit other countries
+            is the one that makes you appreciate every place. My family and I love to travel and know other cultures in the world. Currently, my favorite city is New York.</span>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">directions_bike</i>Sports</div>
+          <div class="collapsible-body"><span>Working out is important to keep myself healthy. I frequently go to gym or swimming pool.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">pets</i>Pets</div>
+          <div class="collapsible-body">
+            <span>My family and I have four pets: two cats and two dogs. Introducing them:<br></span>
+            <br>
+            <div class = "row">
+              <div class = "col s3"><img src="./images/1.jpg" alt="" class="circle responsive-img"><center><h6><b>Patas</b></h6></center></div>
+              <div class = "col s3"><img src="./images/2.jpg" alt="" class="circle responsive-img"><center><h6><b>Gira</b></h6></center></div>
+              <div class = "col s3"><img src="./images/4.jpg" alt="" class="circle responsive-img"><center><h6><b>Bacon</b></h6></center></div>
+              <div class = "col s3"><img src="./images/6.jpeg" alt="" class="circle responsive-img"><center><h6><b>Fantasma</b></h6></center></div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <div id = "academicandprofessional" class = "container">
@@ -130,10 +249,6 @@
         </center>
       </div>
     </div>
-
-    <!--<div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lPoGU5XQ4L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>-->
 
     <footer class="page-footer teal darken-3">
       <div class="container">
@@ -160,6 +275,35 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems, {});
+        });
+
+    </script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.slider');
+          var instances = M.Slider.init(elems, {indicators: false, interval: 3000});
+        });
+
+    </script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.collapsible');
+          var instances = M.Collapsible.init(elems, {});
+        });
+
+    </script>
 
   </body>
 </html>
